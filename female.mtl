@@ -1,0 +1,24 @@
+newmtl Scalp
+    Ns 100.000000
+    d 1.000000
+    Ka 0.000000 0.000000 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.000000 0.000000 0.000000
+    map_Kd female/Scalp_diffuse.jpg
+    map_D female/Scalp_opacity.jpg
+    map_Pm female/Scalp_metallic.png
+    map_Pr female/Scalp_roughness.png
+newmtl Hair
+    Ns 20.000000
+    d 1.000000
+    Ka 1.000000 1.000000 1.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.000000 0.000000 0.000000
+    map_D female/Hair_opacity.jpg
+    map_Pm female/Hair_metallic.png
+    map_Pr female/Hair_roughness.png
+    blend female/Hair_blend.jpg
+    ao female/Hair_ao.jpg
+    Shader__HairRootMap female/Hair_HairRootMap.png
+    Shader__HairIDMap female/Hair_HairIDMap.jpg
+    Shader__HairFlowMap female/Hair_HairFlowMap.jpg
